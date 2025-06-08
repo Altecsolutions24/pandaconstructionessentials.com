@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panda Construction Essentials</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-left">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#ai">AI</a></li>
+      </ul>
+    </div>
+
+    <div class="nav-center">
+      <img src="PANDA.png" alt="Logo" class="logo" />
+      <span class="brand-text">Panda Construction Essentials</span>
+    </div>
+
+    <div class="nav-right">
+      <a href="#contact" class="contact-button">Contact</a>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home-section">
+    <div class="home-content">
+      <div class="home-text">
+        <h1><span class="highlight animate-left" >Panda Construction</span><br /><span class="light">Essentials</span></h1>
+        <p class="subtitle">Construct with Confidence: Your Trusted Partner for Every Project!</p>
+        <div class="home-buttons">
+          <a href="#" class="btn btn-buy">BUY NOW</a>
+          <a href="#" class="btn btn-explore">EXPLORE</a>
+        </div>
+      </div>
+      <div class="home-image animate-left">
+        <img id="slideshow" src="image1.png" alt="Construction Image" />
+      </div>
+    </div>
+    <div class="image-thumbnails animate-left">
+      <img src="image1.png" />
+      <img src="image2.png" />
+      <img src="image3.png" />
+      <img src="image4.png" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+
+      <!-- Top Line -->
+      <div class="about-title-line"></div>
+
+      <!-- Title -->
+      <h2 class="about-title animate-left">Panda Construction</h2>
+
+      <!-- Subtitle -->
+      <h3 class="about-subtitle animate-right">Essentials</h3>
+
+      <!-- Bottom Line -->
+      <div class="about-bottom-line"></div>
+
+      <!-- Dual Text Row -->
+      <div class="about-row">
+        <div class="about-left animate-right">
+          Construct with Confidence: Your Trusted Partner for Every Project!
+        </div>
+        <div class="about-right animate-left">
+          QUALITY + AFFORDABILITY
+        </div>
+      </div>
+
+      <!-- New About Content -->
+      <div class="about-center">
+        <img src="pandaot.png" alt="About Image" class="about-image animate-right" id="aboutImage" />
+        <button class="about-button" id="toggleTextBtn">Click Me</button>
+
+        <div class="about-extra-content" id="extraTextContainer" style="display: none;">
+          <div class="about-extra-text about-extra-left animate-left">
+            At PANDA, we believe that great construction starts with great materials. Our industry-leading skim coat solutions create smooth, durable surfaces that stand the test of time, while our carefully curated selection of construction supplies and tools empowers you to work smarter and stronger.
+          </div>
+          <div class="about-extra-text about-extra-right animate-left">
+            Welcome to PANDA Construction Essentials, your trusted partner in building dreams with strength, precision, and style. Named after the resilient and iconic panda, our business embodies durability, adaptability, and a commitment to excellence. Specializing in premium skim coat products, we provide builders, contractors, and DIY enthusiasts with top-quality materials, tools, and expert advice to ensure every project is a masterpiece.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products-section" id="products">
+    <div class="products-header">
+      <h1 class="products-title animate-left">PREMIUM GRADE</h1>
+      <h2 class="products-subtitle animate-right">PRODUCTS</h2>
+    </div>
+
+    <div class="products-cards">
+      <div class="product-card">
+        <img src="image2.png" alt="Skim Coat - Outdoor" />
+        <h3 class="product-title animate-left">Skim Coat - Outdoor</h3>
+        <p class="product-desc">
+          Durable, weather-resistant skim coat for flawless exterior surfaces that withstand the elements.
+        </p>
+      </div>
+
+      <div class="product-card">
+        <img src="image1.png" alt="Skim Coat - Indoor" />
+        <h3 class="product-title">Skim Coat - Indoor</h3>
+        <p class="product-desc">
+          Smooth, high-quality skim coat for perfect interior walls with a professional finish.
+        </p>
+      </div>
+
+      <div class="product-card">
+        <img src="image4.png" alt="Skim Coat - Outdoor + Indoor" />
+        <h3 class="product-title">Skim Coat - Outdoor + Indoor</h3>
+        <p class="product-desc">
+          Versatile, all-purpose skim coat delivering seamless results for both indoor and outdoor projects.
+        </p>
+      </div>
+
+      <div class="product-card">
+        <img src="image3.png" alt="Tile Adhesive" />
+        <h3 class="product-title animate-right">Tile Adhesive</h3>
+        <p class="product-desc">
+          Strong, reliable adhesive for secure tile installation, ensuring lasting bonds on any surface.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Section -->
+  <section class="ai-section" id="ai">
+    <h1 class="ai-title animate-right">Panda Construction Essentials</h1>
+    <h2 class="ai-subtitle animate-left">AI ASSISTANT</h2>
+
+    <div class="ai-input-container">
+      <textarea 
+        id="userPrompt"
+        class="ai-textarea animate-right" 
+        placeholder="Enter your question for Panda Construction Essentials..."></textarea>
+      <button class="ai-submit animate-left" id="promptTrigger">Submit</button>
+    </div>
+
+    <p id="AIrespond" class="AIrespond"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <h2 class="footer-brand">PANDA</h2>
+        <p class="footer-description">
+          Building dreams with strength and precision. Quality materials. Trusted tools.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#ai">AI Assistant</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <p>Email: info@pandaconstruction.com</p>
+        <p>Phone: +63 912 345 6789</p>
+        <p>Address: Davao City, Philippines</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 PANDA Construction Essentials. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="o..js"></script>
+  <script src="script.js"></script>
+  <script src="ai.js"></script>
+  <script src="main.js"></script>
+  <script src="animation.js"></script>
+  <script>
+    document.getElementById('toggleTextBtn').addEventListener('click', function () {
+      const container = document.getElementById('extraTextContainer');
+      container.style.display = container.style.display === 'none' ? 'flex' : 'none';
+    });
+  </script>
+</body>
+</html>
